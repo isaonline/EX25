@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+</head>
+<body>
+    <h1>Preferências de Usuário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Tipo de Grupo Favorito</legend>
+            <input type="radio" name="grpfav" id="igrpgg" value="GirlsGroup" checked> <label for="igrpgg">Girl Group</label>
+            <input type="radio" name="grpfav" id="igrpbg" value="BoyGroup"> <label for="igrpbg">Boy Group</label>
+            <input type="radio" name="grpfav" id="igrpmx" value="Misto"> <label for="igrpmx">Misto</label>
+        </fieldset>
+        <fieldset>
+            <legend>Grupos favoritos</legend>
+            <input type="checkbox" name="grpnj" id="igrpnj"> <label for="igrpnj">NewJeans</label> <br>
+            <input type="checkbox" name="grpgg" id="igrpgg"> <label for="igrpgg">Girls Generation</label> <br>
+            <input type="checkbox" name="grprv" id="igrprv"> <label for="igrprv">Red Velvet</label> <br>
+            <input type="checkbox" name="grpstc" id="igrpstc"> <label for="igrpstc">STAYC</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
